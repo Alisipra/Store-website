@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Edu+SA+Beginner:wght@500&family=Kanit:ital,wght@0,300;1,300;1,400;1,700&family=Mukta:wght@600&family=Noto+Serif+Lao:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Kanit:ital,wght@0,300;1,300;1,400;1,700&family=Mukta:wght@600&family=Noto+Serif+Lao:wght@900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  width: 53px;
+  height: 67px;
+  position: relative;
+  right: 90px;
+}
+nav {
+  height: 70px;
+  background-color: black;
+  position: sticky;
+  top: 5px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  padding: 12px;
+  margin: 10px;
+  list-style: none;
+  background-color: white;
+  border: 2px solid teal;
+  border-radius: 19px;
+}
+li:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+a:hover {
+  color: whitesmoke;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#search{
+    width: 150px;
+    height: 32px;
+    position: relative;
+    left: 110px;
+    top: 13px;
+    border-radius: 22px;
+}
+i{
+  /* background-color: aliceblue; */
+  width: 25px;
+  height: 20px;
+  position: relative;
+  left: 85px;
+  top: 20px;
+  color: black;
+}
+.section h1{
+  text-align: center;
+  position: static;
+  top: 100px;
+  font-size: 65px;
+  font-family: 'Mukta', sans-serif;
+  color: rgb(4, 144, 199);
+  
+}
+.section h3{
+  text-align: center;
+  position: static;
+  top: 130px;
+  font-size: 35px;
+  font-family: 'Edu SA Beginner', cursive;
+  color: rgb(255, 0, 212);
+}
+.section{
+    height: 440px;
+    background-color: aquamarine;
+    background: url('/static/bg.jpg') no-repeat center center ;
+  }
+  .section2{
+    display: flex;
+    justify-content: center;
+  }
+  .box{
+    padding: 10px;
+    margin: 12px;
+    border: 2px solid black;
+    height: 230px;
+    width: 33%;
+    border-radius: 20px;
+  }
+  h2{
+    font-family: 'Mukta', sans-serif;
+    color: rgb(4, 144, 199);
+    font-size: 50px;
+    text-align: center;
+    font-weight:bold;
+    background-color: lightsalmon;
+    
+  }
+  #item1{
+    background: url('/static/item1.jpg')no-repeat center center;
+    background-size: cover;
+  }
+  #item2{
+    background: url('/static/item2.jpg')no-repeat center center;
+    background-size: cover;
+  }
+  #item3{
+    background: url('/static/item3.jpg')no-repeat center center;
+    background-size: cover;
+  }
+  #item4{
+    background: url('/static/item4.jpg')no-repeat center center;
+    background-size: cover;
+  }
+  #item5{
+    background: url('/static/item5.jpg')no-repeat center center;
+    background-size: cover;
+  }
+  #item6{
+    background: url('/static/item6.jpg')no-repeat center center;
+    background-size: cover;
+  }
+.section2 h3{
+  font-size: 23px;
+  color: rgb(29, 91, 207);
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+  height: 200px;
+  background-color: yellow;
+}
+footer h2{
+  color: darkcyan;
+  background-color: yellow;
+  text-align: start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-indent: 12px;
+}
+p{
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+h5{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: darkgreen;
+}

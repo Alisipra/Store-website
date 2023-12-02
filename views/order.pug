@@ -1,0 +1,21 @@
+html
+    head 
+        title 
+        style 
+            include order.css 
+    
+    body 
+        h1 Order now 
+        div.container
+            form(action="/order" method='post') 
+                
+                input(type="text" placeholder='Enter your Name' name='name') 
+                input(type="text" placeholder='Enter your Address' name='address')
+                input(type="email" placeholder='Enter your Email' name='email')
+                input(type="text" placeholder='Enter your Number' name='number')
+                input(type="text" placeholder='Enter your Product' name='product')
+                input(type="date" name='date')
+                button#btn 
+                    |submit
+                
+                

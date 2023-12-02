@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    background-color: lightseagreen;
+    color: rgba(177, 11, 192, 0.774);
+    width: 50%;
+    position: relative;
+    left: 25%;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+.container{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 300px;
+    border: 2px solid black;
+    background: url('/static/contactbg.jpg') no-repeat center center;
+    background-size: cover;
+    width: 70%;
+    border-radius: 100px;
+}
+input{
+    display: block;
+    width: 500px;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 120px;
+}
+#btn{
+    padding: 10px;
+    background-color: palegreen;
+    width: 75px;
+    border: 2px solid gold;
+    border-radius: 23px;
+    position: relative;
+    left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+

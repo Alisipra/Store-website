@@ -1,0 +1,17 @@
+html 
+    head 
+        title 
+        style 
+            include contact.css 
+    body 
+
+        h1 Contact us
+        div.container
+            div.inner
+                form(action="/contact" method='post' id='form')          
+                    input(type="text" placeholder='Enter your Name' name='name')
+                    input(type="text" placeholder='Enter your Email' name='email')
+                    
+                    input(type="text" placeholder='Enter your Complain/Suggestion' name='complain')
+                    button#btn 
+                        |submit 

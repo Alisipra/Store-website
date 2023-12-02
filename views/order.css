@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body>h1{
+    background-color: darkgoldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+    text-align: center;
+    text-shadow: 2px 2px yellow;
+    outline: black;
+}
+.container{
+    height: 450px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+    
+
+input{
+    padding: 10px;
+    width: 50%;
+    margin-left:250px ;
+    margin-top: 25px;
+}
+#btn{
+    display: block;
+    margin: auto;
+    padding: 12px;
+    margin-top: 10px;
+    width: 69px;
+    background-color: yellowgreen;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px soldi wheat;
+    border-radius: 30px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
